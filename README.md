@@ -3,7 +3,7 @@ www.patika.dev
 --------------------
 
 
-public class VoidReturn {
+public class PolindromSayilar {
 	
 	static boolean isPalindrom(int number){
 		
@@ -28,6 +28,15 @@ public class VoidReturn {
 		}
 	}
 	
+	public static void main(String[] args) {
+		
+		System.out.println(isPalindrom(2476));
+		System.out.println(isPalindrom(101));
+
+	}
+
+}
+
 	public static void main(String[] args) {
 		
 		System.out.println(isPalindrom(2476));
